@@ -20,3 +20,17 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+
+.banner {
+  background: $blue;
+  color: white;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    color: $red;
+    &:hover {
+      color: darken($red, 10%);
+    }
+  }
+}
